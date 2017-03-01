@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__.'/src/ChessRatingQuiz.php';
+require_once __DIR__.'/../src/ChessRatingQuiz.php';
 
 $app = new ChessRatingQuiz();
 

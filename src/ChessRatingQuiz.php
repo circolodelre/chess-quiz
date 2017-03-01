@@ -1,5 +1,12 @@
 <?php
+/**
+ *
+ *
+ */
 
+/**
+ * Class ChessRatingQuiz.
+ */
 class ChessRatingQuiz
 {
     /**
@@ -49,8 +56,9 @@ class ChessRatingQuiz
     private $map = array(
 
         # FEN: r1b3k1/6p1/P1n1pr1p/q1p5/1b1P4/2N2N2/PP1QBPPP/R3K2R b
+        # URL: https://it.lichess.org/analysis/standard/r1b3k1/6p1/P1n1pr1p/q1p5/1b1P4/2N2N2/PP1QBPPP/R3K2R_b
         1 => array(
-            1 => 2600, # f6f3 elo=2600
+            1 => 2600, # f6f3 elo=2600 Txf3
             2 => 1900, # c5d4 elo=1900
             3 => 1900, # c6d4 elo=1900
             4 => 1400, # b4c3 elo=1400
@@ -58,6 +66,7 @@ class ChessRatingQuiz
             6 => 1400, # f6g6 elo=1400
             7 => 1200, # e6e5 elo=1200
             8 => 1600, # c8d7 elo=1600
+            9 => 1000, # g8h7 elo=1000 Rh7
         ),
 
         # FEN: 2nq1nk1/5p1p/4p1pQ/pb1pP1NP/1p1P2P1/1P4N1/P4PB1/6K1 w
@@ -103,48 +112,48 @@ class ChessRatingQuiz
 
         # FEN: 3nn1k1/pp3pbp/2bp1np1/q3p1B1/2B1P3/2N4P/PPPQ1PP1/3RR1K1 w
         6 => array(
-            # g5f6 elo=2500
-            # c3d5 elo=1700
-            # c4b5 elo=1900
-            # f2f4 elo=1700
-            # a2a3 elo=1200
-            # e1e3 elo=1200
+            1 => 2500, # g5f6 elo=2500
+            2 => 1700, # c3d5 elo=1700
+            3 => 1900, # c4b5 elo=1900
+            4 => 1700, # f2f4 elo=1700
+            5 => 1200, # a2a3 elo=1200
+            6 => 1200, # e1e3 elo=1200
         ),
 
         # FEN: r1b1qrk1/1ppn1pb1/p2p1npp/3Pp3/2P1P2B/2N5/PP1NBPPP/R2Q1RK1 b
         7 => array(
-            # f6h7 elo=2500
-            # f6e4 elo=1800
-            # g6g5 elo=1700
-            # a6a5 elo=1700
-            # g8h7 elo=1500
+            1 => 2500, # f6h7 elo=2500
+            2 => 1800, # f6e4 elo=1800
+            3 => 1700, # g6g5 elo=1700
+            4 => 1700, # a6a5 elo=1700
+            5 => 1500, # g8h7 elo=1500
         ),
 
         # FEN: 2R1r3/5k2/pBP1n2p/6p1/8/5P1P/2P3P1/7K w
         8 => array(
-            # b6d8 elo=2500
-            # c8e8 elo=1600
+            1 => 2500, # b6d8 elo=2500
+            2 => 1600, # c8e8 elo=1600
         ),
 
         # FEN: 2r2rk1/1p1R1pp1/p3p2p/8/4B3/3QB1P1/q1P3KP/8 w
         9 => array(
-            # e3d4 elo=2500
-            # e4g6 elo=1800
-            # e4h7 elo=1800
-            # e3h6 elo=1700
-            # d7b7 elo=1400
+            1 => 2500, # e3d4 elo=2500
+            2 => 1800, # e4g6 elo=1800
+            3 => 1800, # e4h7 elo=1800
+            4 => 1700, # e3h6 elo=1700
+            5 => 1400, # d7b7 elo=1400
         ),
 
         # FEN: r1bq1rk1/p4ppp/1pnp1n2/2p5/2PPpP2/1NP1P3/P3B1PP/R1BQ1RK1 b
         10 => array(
-            # d8d7 elo=2600
-            # f6e8 elo=2000
-            # h7h5 elo=1800
-            # c5d4 elo=1600
-            # c8a6 elo=1800
-            # a7a5 elo=1800
-            # f8e8 elo=1400
-            # d6d5 elo=1500
+            1 => 2600, # d8d7 elo=2600
+            2 => 2000, # f6e8 elo=2000
+            3 => 1800, # h7h5 elo=1800
+            4 => 1600, # c5d4 elo=1600
+            5 => 1800, # c8a6 elo=1800
+            6 => 1800, # a7a5 elo=1800
+            7 => 1400, # f8e8 elo=1400
+            8 => 1500, # d6d5 elo=1500
         ),
     );
 }

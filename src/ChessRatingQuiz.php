@@ -22,10 +22,17 @@ class ChessRatingQuiz
         }
 
         $total = 0;
+        $lower = 3000;
+        $train = 1;
 
         for ($q = 1; $q <= strlen($input); $q++) {
             $i = intval($input[$q-1]);
-            $total += isset($this->map[$q][$i]) ? $this->map[$q][$i] : 1000;
+            $elo = isset($this->map[$q][$i]) ? $this->map[$q][$i] : 1000;
+            if ($elo < $lower) {
+                $lower = $elo;
+                $train = $q;
+            }
+            $total += $elo;
         }
 
         $cat = 'NC';
@@ -47,7 +54,7 @@ class ChessRatingQuiz
             $cat = 'GM';
         }
 
-        echo "Il tuo punteggio ELO stimato è {$elo}, la tua categoria è {$cat}.\n";
+        echo "Il tuo punteggio ELO è {$elo} categoria {$cat}. Devi migliorare sul Diagramma {$train}.\n";
     }
 
     /**

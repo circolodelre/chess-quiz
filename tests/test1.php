@@ -4,7 +4,7 @@ require_once __DIR__.'/../src/ChessRatingQuiz.php';
 
 $app = new ChessRatingQuiz();
 
-$raw = " elo 121351a31a71 \n ";
+$raw = " elo 146351a31a71 \n ";
 
 $msg = substr(trim($raw), 3);
 

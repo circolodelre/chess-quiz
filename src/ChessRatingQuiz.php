@@ -156,15 +156,15 @@ class ChessRatingQuiz
         # FEN: 2R1r3/5k2/pBP1n2p/6p1/8/5P1P/2P3P1/7K w
         # URL: https://it.lichess.org/analysis/standard/2R1r3/5k2/pBP1n2p/6p1/8/5P1P/2P3P1/7K_w
         8 => array(
-            1 => 1000, # c2c4 elo=1000
-            2 => 1600, # c8e8 elo=1600
-            3 => 1000, # c6c7 elo=1000
-            4 => 1000, # h1g1 elo=1000
-            5 => 1000, # g2g4 elo=1000
-            6 => 2500, # b6d8 elo=2500
-            7 => 1000, # b6a7 elo=1000
-            8 => 1000, # b6a5 elo=1000
-            9 => 1000, # h3h4 elo=1000
+            1 => 1000, # c2c4 elo=1000 c4
+            2 => 1600, # c8e8 elo=1600 Txe8
+            3 => 1000, # c6c7 elo=1000 c7
+            4 => 1000, # h1g1 elo=1000 Rg1
+            5 => 1000, # g2g4 elo=1000 g4
+            6 => 2500, # b6d8 elo=2500 Ad8
+            7 => 1000, # b6a7 elo=1000 Aa7
+            8 => 1000, # b6a5 elo=1000 Aa5
+            9 => 1000, # h3h4 elo=1000 h4
         ),
 
         # FEN: 2r2rk1/1p1R1pp1/p3p2p/8/4B3/3QB1P1/q1P3KP/8 w

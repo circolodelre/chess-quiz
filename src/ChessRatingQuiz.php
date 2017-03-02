@@ -142,15 +142,15 @@ class ChessRatingQuiz
         # FEN: r1b1qrk1/1ppn1pb1/p2p1npp/3Pp3/2P1P2B/2N5/PP1NBPPP/R2Q1RK1 b
         # URL: https://it.lichess.org/analysis/standard/r1b1qrk1/1ppn1pb1/p2p1npp/3Pp3/2P1P2B/2N5/PP1NBPPP/R2Q1RK1_b
         7 => array(
-            1 => 1700, # a6a5 elo=1700
-            2 => 1000, # d7c5 elo=1000
-            3 => 1000, # f6h5 elo=1000
-            4 => 1500, # g8h7 elo=1500
-            5 => 1000, # c7c6 elo=1000
-            6 => 1000, # c7c5 elo=1000
-            7 => 2500, # f6h7 elo=2500
-            8 => 1800, # f6e4 elo=1800
-            9 => 1700, # g6g5 elo=1700
+            1 => 1700, # a6a5 elo=1700 a5
+            2 => 1000, # d7c5 elo=1000 Cc5
+            3 => 1000, # f6h5 elo=1000 Ch5
+            4 => 1500, # g8h7 elo=1500 Rh7
+            5 => 1000, # c7c6 elo=1000 c6
+            6 => 1000, # c7c5 elo=1000 c5
+            7 => 2500, # f6h7 elo=2500 Ch7
+            8 => 1800, # f6e4 elo=1800 Cxe4
+            9 => 1700, # g6g5 elo=1700 g5
         ),
 
         # FEN: 2R1r3/5k2/pBP1n2p/6p1/8/5P1P/2P3P1/7K w

@@ -72,71 +72,71 @@ class ChessRatingQuiz
         # FEN: 2nq1nk1/5p1p/4p1pQ/pb1pP1NP/1p1P2P1/1P4N1/P4PB1/6K1 w
         # URL: https://it.lichess.org/analysis/standard/2nq1nk1/5p1p/4p1pQ/pb1pP1NP/1p1P2P1/1P4N1/P4PB1/6K1_w
         2 => array(
-            1 => 1950, # g5h7 elo=1950
-            2 => 1000, # a2a4 elo=1000
-            3 => 1000, # g3f5 elo=1000
-            4 => 1900, # h5g6 elo=1900
-            5 => 1400, # g2f1 elo=1400
-            6 => 1200, # g2d5 elo=1200
-            7 => 2600, # g2e4 elo=2600
-            8 => 1400, # f2f4 elo=1400
-            9 => 1000, # g3e4 elo=1000
+            1 => 1950, # g5h7 elo=1950 Cxh7
+            2 => 1000, # a2a4 elo=1000 a4
+            3 => 1000, # g3f5 elo=1000 Cf5
+            4 => 1900, # h5g6 elo=1900 hxg6
+            5 => 1400, # g2f1 elo=1400 Af1
+            6 => 1200, # g2d5 elo=1200 Axd5
+            7 => 2600, # g2e4 elo=2600 Ae4
+            8 => 1400, # f2f4 elo=1400 f4
+            9 => 1000, # g3e4 elo=1000 C3e4
         ),
 
         # FEN: 8/3r2p1/pp1Bp1p1/1kP5/1n2K3/6R1/1P3P2/8 w
         # URL: https://it.lichess.org/analysis/standard/8/3r2p1/pp1Bp1p1/1kP5/1n2K3/6R1/1P3P2/8_w
         3 => array(
-            1 => 1000, # b2b3 elo=1000
-            2 => 2500, # c5c6 elo=2500
-            3 => 1000, # f2f4 elo=1000
-            4 => 1000, # d6f8 elo=1000
-            5 => 2000, # g3g6 elo=2000
-            6 => 1900, # e4e5 elo=1900
-            7 => 1200, # e4d4 elo=1200
-            8 => 1700, # g3g5 elo=1700
-            9 => 1200, # d6e5 elo=1200
+            1 => 1000, # b2b3 elo=1000 b3
+            2 => 2500, # c5c6 elo=2500 c6
+            3 => 1000, # f2f4 elo=1000 f4
+            4 => 1000, # d6f8 elo=1000 Af8
+            5 => 2000, # g3g6 elo=2000 Txg6
+            6 => 1900, # e4e5 elo=1900 Re5
+            7 => 1200, # e4d4 elo=1200 Rd4
+            8 => 1700, # g3g5 elo=1700 Tg5
+            9 => 1200, # d6e5 elo=1200 Ae5
         ),
 
         # FEN: 8/4kb1p/2p3pP/1pP1P1P1/1P3K2/1B6/8/8 w
         # URL: https://it.lichess.org/analysis/standard/8/4kb1p/2p3pP/1pP1P1P1/1P3K2/1B6/8/8_w
         4 => array(
-            1 => 1600, # b3f7 elo=1600
-            2 => 1800, # b3d1 elo=1800
-            3 => 1000, # f4e4 elo=1000
-            4 => 1000, # b3a4 elo=1000
-            5 => 1700, # b3c2 elo=1700
-            6 => 1000, # f4e3 elo=1000
-            7 => 1000, # f4g3 elo=1000
-            8 => 1000, # f4f3 elo=1000
-            9 => 2500, # e5e6 elo=2500
+            1 => 1600, # b3f7 elo=1600 Axf7
+            2 => 1800, # b3d1 elo=1800 Ad1
+            3 => 1000, # f4e4 elo=1000 Re4
+            4 => 1000, # b3a4 elo=1000 Aa4
+            5 => 1700, # b3c2 elo=1700 Ac2
+            6 => 1000, # f4e3 elo=1000 Re3
+            7 => 1000, # f4g3 elo=1000 Rg3
+            8 => 1000, # f4f3 elo=1000 Rf3
+            9 => 2500, # e5e6 elo=2500 e6
         ),
 
         # FEN: b1R2nk1/5ppp/1p3n2/5N2/1b2p3/1P2BP2/q3BQPP/6K1 w
         # URL: https://it.lichess.org/analysis/standard/b1R2nk1/5ppp/1p3n2/5N2/1b2p3/1P2BP2/q3BQPP/6K1_w
         5 => array(
-            1 => 2100, # f5h6 elo=2100
-            2 => 1900, # e3h6 elo=1900
-            3 => 1500, # f5g7 elo=1500
-            4 => 1750, # f2g3 elo=1750
-            5 => 1200, # c8f8 elo=1200
-            6 => 1200, # f2h4 elo=1200
-            7 => 1750, # e3b6 elo=1750
-            8 => 2500, # e3c5 elo=2500
-            9 => 1400, # e2c4 elo=1400
+            1 => 2100, # f5h6 elo=2100 Ch6
+            2 => 1900, # e3h6 elo=1900 Ah6
+            3 => 1500, # f5g7 elo=1500 Cxg7
+            4 => 1750, # f2g3 elo=1750 Dg3
+            5 => 1200, # c8f8 elo=1200 Txf8
+            6 => 1200, # f2h4 elo=1200 Dh4
+            7 => 1750, # e3b6 elo=1750 Axb6
+            8 => 2500, # e3c5 elo=2500 Ac5
+            9 => 1400, # e2c4 elo=1400 Ac4
         ),
 
         # FEN: 3nn1k1/pp3pbp/2bp1np1/q3p1B1/2B1P3/2N4P/PPPQ1PP1/3RR1K1 w
         # URL: https://it.lichess.org/analysis/standard/3nn1k1/pp3pbp/2bp1np1/q3p1B1/2B1P3/2N4P/PPPQ1PP1/3RR1K1_w
         6 => array(
-            1 => 1200, # a2a3 elo=1200
-            2 => 2500, # g5f6 elo=2500
-            3 => 1700, # c3d5 elo=1700
-            4 => 1900, # c4b5 elo=1900
-            5 => 1000, # a2a4 elo=1000
-            6 => 1000, # b2b3 elo=1000
-            7 => 1000, # g1h2 elo=1000
-            8 => 1700, # f2f4 elo=1700
-            9 => 1200, # e1e3 elo=1200
+            1 => 1200, # a2a3 elo=1200 a3
+            2 => 2500, # g5f6 elo=2500 Axf6
+            3 => 1700, # c3d5 elo=1700 Cd5
+            4 => 1900, # c4b5 elo=1900 Ab5
+            5 => 1000, # a2a4 elo=1000 a4
+            6 => 1000, # b2b3 elo=1000 b3
+            7 => 1000, # g1h2 elo=1000 Rh2
+            8 => 1700, # f2f4 elo=1700 f4
+            9 => 1200, # e1e3 elo=1200 Te3
         ),
 
         # FEN: r1b1qrk1/1ppn1pb1/p2p1npp/3Pp3/2P1P2B/2N5/PP1NBPPP/R2Q1RK1 b
